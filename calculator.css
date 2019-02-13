@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box
+}
+.calc{
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+.body{
+display: block;
+height: 600px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+width: 1100px;
+  }
+.screen {
+    color: white;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+    }
+ .calc-button{
+        width: 24%;
+        height: 100px;
+        padding: 0px;
+        border: 1px solid black;
+        font-size: 40px;
+        cursor: pointer;
+    }
+.calc-button-double{
+    width: 49.5%;
+    height: 100px;
+    padding: 0px;
+    border: 1px solid black;
+    font-size: 40px;
+    cursor: pointer;
+}
+.calc-button-triple{
+    width: 74.5%;
+    height: 100px;
+    padding: 0px;
+    border: 1px solid black;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.calc-button-row{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+.calc-button-action{
+    color: white;
+    background-color: peru;
+    width: 24%;
+    height: 100px;
+    padding: 0px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.calc-button:hover{
+    background-color: papayawhip;
+}
+.calc-button:active{
+    background-color: coral
+}
+.calc-button-triple:hover{
+    background-color: papayawhip;
+}
+.calc-button-triple:active{
+    background-color: coral
+}
+.calc-button-action:hover{
+    background-color: papayawhip;
+}
+.calc-button-action:active{
+    background-color: coral;
+    color:  black
+}
+.calc-button-double:hover{
+    background-color: papayawhip;
+}
+.calc-button-double:active{
+    background-color: coral
+}
